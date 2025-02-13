@@ -1,2 +1,25 @@
-
 /* Your CSS Code here. */
+
+
+.holder {
+    display: grid;  
+    grid-template-rows: repeat(2, 1fr);  /* Two equal rows */
+    grid-template-columns: repeat(2, 1fr);  /* Two equal columns */
+    width: 200px;  
+    height: 200px;  
+    gap: 5px;  /* Optional: Adds space between grid items */
+    background-color: lightgray; /* Optional: Just for visibility */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
